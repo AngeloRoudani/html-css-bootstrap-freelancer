@@ -15,7 +15,7 @@
 }
 
 .ms_image {
-    height: 150px;
+    height: 150px;/*debug*/
     background-color: violet ;/*debug*/
 }
 .ms_boxnav {
@@ -28,6 +28,11 @@
     color: white;
 }
 
+.ms_par {
+    height: 150px; /*debug*/
+    background-color: violet;/*debug*/
+}
+
 li {
     list-style: none;
     display: inline-block;
@@ -35,4 +40,10 @@ li {
 
 .portfolio {
     background-color: darkgrey;
+}
+
+.about {
+    min-height: 300px;
+    background-color: #1abc9c;
+    color: white;
 }
