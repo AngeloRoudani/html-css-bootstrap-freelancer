@@ -24,7 +24,7 @@
     min-height: 300px;
 }
 
-.jumbotron .hardrule_starred {
+.hardrule_starred {
     width: 200px;
     height: 5px;
     border-radius: 5px;
@@ -34,7 +34,7 @@
     z-index: 0;
 }
 
-.jumbotron i {
+.ms_white_star {
     width: 45px;
     display: inline-block;
     height: 45px;
@@ -68,10 +68,6 @@
     padding-left: 6px;
 }
 
-.ms_par {
-    height: 150px; /*debug*/
-    background-color: violet;/*debug*/
-}
 
 li {
     list-style: none;
