@@ -21,19 +21,47 @@
 .jumbotron {
     background-color: #1abc9c;
     color: white;
+    min-height: 300px;
 }
 
-.hardrule_starred {
+.jumbotron .hardrule_starred {
     width: 200px;
     height: 5px;
     border-radius: 5px;
     background-color: white;
+    position: relative;
+    top: 17px;
+    z-index: 0;
 }
 
 .jumbotron i {
-    width: 30px;
+    width: 45px;
     display: inline-block;
+    height: 45px;
+    font-size: 30px;
+    background-color: #1abc9c;
+    z-index: 1 ;
+    position: relative;
+}
+
+.portoflio .hardrule_starred {
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: black;
+    position: relative;
+    top: 17px;
+    z-index: 0;
+}
+
+.portfolio i {
+    width: 45px;
+    display: inline-block;
+    height: 45px;
+    font-size: 30px;
     background-color: white;
+    z-index: 1 ;
+    position: relative;
 }
 
 .ms_par {
@@ -44,10 +72,6 @@
 li {
     list-style: none;
     display: inline-block;
-}
-
-.portfolio {
-    background-color: darkgrey;
 }
 
 .about {
