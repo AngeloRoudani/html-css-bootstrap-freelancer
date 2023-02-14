@@ -45,7 +45,7 @@
 }
 
 
-.portfolio .hardrule_starred {
+.ms_black .hardrule_starred {
     width: 200px;
     height: 5px;
     border-radius: 5px;
@@ -55,7 +55,7 @@
     z-index: 0;
 }
 
-.portfolio i {
+.ms_black_star {
     width: 45px;
     display: inline-block;
     height: 45px;
@@ -78,4 +78,8 @@ li {
     min-height: 300px;
     background-color: #1abc9c;
     color: white;
+}
+
+.ms_btn_watergreen {
+    background-color: #1abc9c;
 }
