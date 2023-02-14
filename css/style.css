@@ -14,18 +14,26 @@
     border: dashed 1px rgb(245, 245, 245);/*debug*/
 }
 
-.ms_image {
-    height: 150px;/*debug*/
-    background-color: violet ;/*debug*/
-}
 .ms_boxnav {
     height: 60px;
 }
 
 .jumbotron {
-    height: 300px;/*debug*/
     background-color: #1abc9c;
     color: white;
+}
+
+.hardrule_starred {
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.jumbotron i {
+    width: 30px;
+    display: inline-block;
+    background-color: white;
 }
 
 .ms_par {
